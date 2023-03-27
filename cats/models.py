@@ -6,6 +6,5 @@ class Cat(models.Model):
     color = models.CharField(max_length=16)
     birth_year = models.IntegerField()
 
-
     def __str__(self):
         return self.name
