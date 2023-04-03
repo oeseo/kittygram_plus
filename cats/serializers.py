@@ -1,6 +1,5 @@
 from rest_framework import serializers
 
-
 from .models import Cat, Owner, Achievement, AchievementCat, CHOICES
 import datetime as dt
 import webcolors
